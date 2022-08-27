@@ -1,9 +1,0 @@
-﻿Console.Write ("Введите число для проверки: ");
-int number = int.Parse (Console.ReadLine());
-
-if (number % 2 == 0)
-{
-    Console.WriteLine ($"{number} является четным числом.");
-}
-else
-Console.WriteLine ($"{number} не является четным числом.");
